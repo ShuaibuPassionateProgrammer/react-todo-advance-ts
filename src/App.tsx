@@ -1,9 +1,10 @@
 import React from "react";
+import ToDo from "./components/ToDo";
 
 const App = () => {
   return (
     <>
-      <h1>React TODO Advance using TypeScript</h1>
+      <ToDo />
     </>
   );
 };
